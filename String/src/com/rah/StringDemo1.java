@@ -13,7 +13,9 @@ public class StringDemo1 {
 		
 		String s3 = s1.concat(s2);
 		System.out.println("After concatination :" +s3);
-
+		
+		String s4 = s1.toUpperCase();
+        System.out.println(s4);
 	}
 
 }
